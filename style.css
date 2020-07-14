@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Pacifico', cursive;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(save1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+@media only screen and (min-width: 768px) {
+    header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(save2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+    .p{
+        font-size: 100px; 
+    }
+    .main-header button{
+    padding: 1rem 3rem;
+    font-size: 5rem;
+    background: #B0A2EF;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    margin: 20px;
+}
+}
+@media only screen and (min-width: 1000px) {
+        header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(save3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+}
+    .main-header{
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.main-header button{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background: #B0A2EF;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    margin: 20px;
+}
+
+.main-header button:hover{
+    transform: scale(1.2);
+}

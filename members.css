@@ -1,0 +1,52 @@
+.mem{
+    margin: auto;
+    text-align: center;
+    margin-top: 1x0px;
+    justify-content: center;
+    align-content: center;
+    
+    padding: 10px 60px;
+    font-size: 20px;
+    font-family: "montserrat";
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.button {  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    box-sizing: 30px;
+    tab-size: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 80px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
